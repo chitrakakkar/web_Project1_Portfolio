@@ -55,10 +55,44 @@ p{
 
 }
 
-.soc-media-ul a {
+.soc-media-ul a
+{
     text-align: center;
     text-decoration: none;
 }
-#footer {
-    padding: 3em 0;
+
+#footer
+{
+    background: #000;
+    height: 50px;
 }
+.soc-media-ul
+{
+    margin-right: -5%;
+    float: right;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.soc-media-ul li:not(:first-child) a
+{
+    margin-left: 1em;
+
+}
+.soc-media-ul a
+{
+    display: block;
+    padding: 0.5em .65rem;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 100%;
+    border: 2px solid;
+}
+.strong
+{
+    float: left;
+    color: lightgray;
+    margin-left: -8%;
+    font-family: cursive;
+}
+
