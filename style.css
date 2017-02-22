@@ -1,4 +1,64 @@
-body
+.navbar a,
+.sec-about p {
+    text-align: center;
+}
+.navbar-brand img
 {
-    background-color: crimson;
+   padding-top: 0;
+}
+
+.main-heading
+{
+    padding-top: 50px;
+    padding-left: 20px;
+
+}
+.wrapper
+{
+    background-color: aliceblue;
+}
+
+.sec-main
+{
+    position: relative;
+    height: 560px;
+    background: url(Images/Main_Pic.jpg) no-repeat center center;
+    background-size: contain;
+}
+.sec-about p
+{
+    alignment: right;
+}
+
+.navbar-header img
+{
+
+    margin-left:-80% !important;
+    margin-top: -10% !important;
+}
+.strong
+{
+    padding-left: 50px;
+    font-family:"Plantagenet Cherokee";
+    font-size: 18px;
+    font-weight: 300;
+}
+p{
+    font-family:heading-font;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+.hr
+{
+    color: black;
+
+}
+
+.soc-media-ul a {
+    text-align: center;
+    text-decoration: none;
+}
+#footer {
+    padding: 3em 0;
 }
