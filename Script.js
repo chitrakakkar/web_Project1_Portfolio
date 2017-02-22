@@ -11,18 +11,13 @@ $(function() {
     });
 });
 
-function makeCircle()
-{
+function makeCircle() {
     var canvas = document.getElementById('Canvas');
     var context = canvas.getContext('2d');
-    var centerX = canvas.width / 2;
-    var centerY = canvas.height / 2;
-    var radius = 70;
-    context.beginPath();
-    context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
-    context.fillStyle = 'green';
-    context.fill();
-    context.lineWidth = 10;
-    context.strokeStyle = '#003300';
-    context.stroke();
+    var img = new Image();
+    img.addEventListener('load', function (e) {
+        context.drawImage(this, 0, 0, 300, 300);
+    }, true);
+    img.src = "Images/CK_Face_pic.png";
+    img.border= " 10px black"
 }
