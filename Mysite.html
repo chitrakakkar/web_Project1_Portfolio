@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
     <!--Font Awesome's Brand Icons -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <meta name="viewport" content="="width="device-width initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="Script.js"></script>
@@ -52,19 +52,25 @@
 
     <section id="about" class="sec-about">
         <div class="container">
-            <h1>About me</h1>
 
-            <hr />
+
+            <div class="hr-sect">
+                <h1 class="title">About me</h1>
+            </div>
             <div class="row">
-                <div class="col-sm-6 col-sm-offset-3">
-                    <canvas id="Canvas" height="500" width="400">
+                <div class="menu">
+                    <ul>
+                        <li><canvas id="Canvas" height="400" width="300">
 
-                    </canvas>
+                        </canvas></li>
+                        <li class="circle">My Personal Life</li>
+                        <li class="circle">My Blog</li>
+                        <li class="circle">My  Resume</li>
+                    </ul>
                     <script>
-                           makeCircle();
+                        makeCircle();
 
                     </script>
-
 
                 </div>
                 <div class="col-sm-6 col-sm-offset-3">
@@ -75,10 +81,9 @@
     </section>
     <section id="services" class="sec-services">
         <div class="container">
-            <h1>Skills</h1>
-
-            <hr />
-
+            <div class="hr-sect">
+                <h1 class="title">Skills</h1>
+            </div>
             <div class="row">
                 <div class="col-sm-4">
                     <i class="fa fa-4x fa-paint-brush"></i>
@@ -109,9 +114,9 @@
 
     <section id="folio" class="sec-folio">
         <div class="container">
-            <h1>Projects</h1>
-
-            <hr />
+            <div class="hr-sect">
+                <h1 class="title">Projects</h1>
+            </div>
 
             <div class="row">
                 <div class="col-md-4">
@@ -159,9 +164,9 @@
 
     <section id="testimonials" class="sec-testimonials">
         <div class="container">
-            <h1>Testimonials</h1>
-
-            <hr />
+            <div class="hr-sect">
+                <h1 class="title">Testimonials</h1>
+            </div>
 
             <div class="row">
                 <div class="col-sm-4">
@@ -187,8 +192,9 @@
 
     <section id="contact" class="sec-contact">
         <div class="container">
-            <h1>Contact</h1>
-            <hr />
+            <div class="hr-sect">
+                <h1 class="title">Contacts</h1>
+            </div>
             <div class="row">
                 <div class="col-sm-4 col-sm-offset-4">
                     <p>
