@@ -1,3 +1,8 @@
+body{
+    background-color: saddlebrown;
+}
+
+
 #Canvas {
 
    margin-left: -30%;
@@ -8,9 +13,16 @@
 .sec-about p {
     text-align: center;
 }
+
+
 .navbar-brand img
 {
    padding-top: 0;
+}
+
+#map{
+   float: right;
+    padding-bottom: -180px;
 }
 
 .main-heading
@@ -19,9 +31,24 @@
     padding-left: 20px;
 
 }
+#column-contact
+{
+    padding: 0;
+   margin-left: 900px;
+}
+#contact-info
+{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .wrapper
 {
-    background-color: aliceblue;
+    margin-left: 20px;
+   margin-right: 20px;
+    background-color:lightsteelblue;
+    border-radius: 20px;
 }
 #id{
     width: 190px;
@@ -43,10 +70,13 @@
     width: 140px;
     height: 140px;
     line-height: 140px;
-    background:lightskyblue;
+    background:lightblue;
     margin-left: 75px;
 }
-
+#contact-para
+{
+   margin-left: -350px;
+}
 
 
 .sec-main
@@ -118,7 +148,7 @@ p{
 }
 .soc-media-ul
 {
-    margin-right: -5%;
+    margin-right: 0;
     float: right;
     list-style: none;
     display: flex;
@@ -147,3 +177,4 @@ p{
     font-family: cursive;
 }
 
+/* some of these taken from different stack over flow*/

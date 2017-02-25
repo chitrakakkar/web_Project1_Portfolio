@@ -21,3 +21,43 @@ function makeCircle() {
     img.src = "Images/CK_Face_pic.png";
     img.border= " 10px black"
 }
+// var geocoder;
+// var map;
+// function initMap()
+// {
+//     geocoder = new google.maps.Geocoder();
+//     var lat='';
+//     var lng='';
+//     var city_state_zip = document.getElementById("city_state_zip").innerHTML;
+//     var street_address = document.getElementById("street_address").innerHTML;
+//     var address = street_address + " " + city_state_zip;
+//     geocoder.geocode( { 'address': address}, function(results, status) {
+//         if (status == google.maps.GeocoderStatus.OK) {
+//             lat = results[0].geometry.location.lat(); //getting the lat
+//             lng = results[0].geometry.location.lng(); //getting the lng
+//             map.setCenter(results[0].geometry.location);
+//             var marker = new google.maps.Marker({
+//                 map: map,
+//                 position: results[0].geometry.location
+//             });
+//         } else
+//             {
+//             alert("Geocode was not successful for the following reason: " + status);
+//         }
+//     });
+//     var latlng = new google.maps.LatLng(lat, lng);
+//     var myOptions = {
+//         zoom: 8,
+//         center: latlng,
+//         mapTypeId: google.maps.MapTypeId.ROADMAP
+//     };
+//     map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+//
+//     window.onload = function()
+//     {
+//         initMap();
+//     }
+//
+// }
+
+
