@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -182,21 +182,19 @@
 
             <div class="row">
                 <div class="col-sm-4">
-                    <p class="text-center">"Chitra did great job when designing our website. It was pleasure to work with her and I'm sure we will hire her again."</p>
+                    <p class="text-center">"Chitra was a team player while working with Encore.Her dedication contributed to our success"</p>
 
-                    <p class="text-right">&mdash; Marc Andressen</p>
+                    <p class="text-right">&mdash; Rahul Das/Encore India</p>
                 </div>
 
                 <div class="col-sm-4">
-                    <p class="text-center">"Chitra proved to be truly creative designer who is able to create just stunning design I immediately fell in love with!"</p>
-
-                    <p class="text-right">&mdash; Emily Cooper</p>
+                    <p class="text-center">"Chitra's extra effort, dedication, insights and opinions were all extremely valuable to the success of this organization"
+                    <p class="text-right">&mdash; Gaurav Chopra/Convergys-India</p>
                 </div>
 
                 <div class="col-sm-4">
-                    <p class="text-center">"I have worked with several different people and it always seemed like a pain—luckily I found Chitra. Thank you Chitra!"</p>
-
-                    <p class="text-right">&mdash; Scott Grubber</p>
+                    <p class="text-center">"Chitra's personal commitment to quality, desire and willingness fuel our mutual efforts and lead us to success"
+                    <p class="text-right">&mdash; Rochell Spiel/MCTC IT Department</p>
                 </div>
             </div>
         </div>
@@ -208,32 +206,33 @@
                 <h1 class="title">Contacts</h1>
             </div>
             <div class="row">
-                <div class="col-sm-4 col-sm-offset-4">
+                <div class="col-sm-4">
                     <p id="contact-para">
                         I'm currently available for freelance projects or full-time work.
-                        If you're interested in working with me, please get in touch using one of the contact information below
+                        If you're interested in working with me, please get in touch using one of the contact information here
                         Or feel free to just say hi. I like that too.
                     </p>
-                    <p id="contact-info">
-                        <hr style="background: brown;">
-                        Full name: Chitra Kakkar
-                        <br>
-                        Address: 110 E 18th street
-                        <br>
-                        Phone number:- 480-399-3102 "
-                        <br>
-                        <a href="mailto:chitra.kakkar@yahoo.com?subject=Your%20online%20portfolio">Mail me</a>
-                        <br>
-                        <br>
-                    </p>
                     </div>
-                    <div id="map">
-                        <h3>My address-Map</h3>
-                        <div id="map_canvas" style="width:200px; height:200px"></div>
+                <div class="col-sm-4">
+                    <p id="contact-info">
+                        <b>Full name:</b> Chitra Kakkar
+                        <br>
+                        <b>Address:</b> 110 E 18th street, Minneapolis, MN-55403
+                        <br>
+                        <b>Phone number:-</b> 480-399-3102
+                        <br>
+                        <b>Email address: </b><a href="mailto:chitra.kakkar@yahoo.com?subject=Your%20online%20portfolio">Mail me</a>
+                        </div>
+                <div id="arrow">
+                    <img src="Images/arrow.png"/>
+                </div>
+                <div id="map" class="col-sm-4">
+                        <div id="map_canvas" style="width:250px; height:150px"></div>
                             <p id="city_state_zip" hidden>55403</p>
                             <p id="street_address" hidden>110 E 18th street</p>
 
                         </div>
+                </div>
                 <script type="text/javascript">
                     var geocoder;
                     var map;
@@ -244,38 +243,46 @@
                         var city_state_zip = document.getElementById("city_state_zip").innerHTML;
                         var street_address = document.getElementById("street_address").innerHTML;
                         var address = street_address + " " + city_state_zip;
-                        geocoder.geocode( { 'address': address}, function(results, status) {
-                            if (status == google.maps.GeocoderStatus.OK) {
+                        geocoder.geocode( { 'address': address}, function(results, status)
+                        {
+                            if (status == google.maps.GeocoderStatus.OK)
+                            {
                                 lat = results[0].geometry.location.lat(); //getting the lat
                                 lng = results[0].geometry.location.lng(); //getting the lng
                                 map.setCenter(results[0].geometry.location);
-                                var marker = new google.maps.Marker({
+                                var marker = new google.maps.Marker
+                                ({
+                                    url: 'https://www.google.com/maps/place/110+E+18th+St,+Minneapolis,+MN+55403/@44.9656226,-93.2780984,17z/data=!3m1!4b1!4m5!3m4!1s0x52b332b96b8034b5:0xd3fca62300e5e543!8m2!3d44.9656226!4d-93.2759097',
                                     map: map,
                                     position: results[0].geometry.location
                                 });
                             } else {
                                 alert("Geocode was not successful for the following reason: " + status);
                             }
+                            google.maps.event.addListener(marker, 'click', function() {window.location.href =marker.url});
                         });
                         var latlng = new google.maps.LatLng(lat, lng);
-                        var myOptions = {
+                        var myOptions =
+                        {
                             zoom: 8,
                             center: latlng,
                             mapTypeId: google.maps.MapTypeId.ROADMAP
                         };
                         map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
                     }
+
                     window.onload = function()
                     {
                         initMap();
                     }
                 </script>
                     </div>
+        </section>
 
-            </div>
-    </section>
 
-    <footer id="footer">
+
+      <footer id="footer">
+        <div class="col-sm-4">
         <div class="container">
             <strong class="strong">Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
                 --Martin Fowler</strong>
@@ -296,9 +303,12 @@
                 <li>
                     <a href="mailto:chitra.kakkar@yahoo.com?subject=Your%20online%20portfolio" class="fa fa-envelope" target="_blank"></a>
                 </li>
-            </ul>
-        </div>
-    </footer>
+                </ul>
+            </div>
+       </div>
+      </footer>
+
+
 </div>
 
 </body>

@@ -42,8 +42,7 @@ function makeCircle()
 //                 map: map,
 //                 position: results[0].geometry.location
 //             });
-//         } else
-//             {
+//         } else {
 //             alert("Geocode was not successful for the following reason: " + status);
 //         }
 //     });
@@ -54,12 +53,5 @@ function makeCircle()
 //         mapTypeId: google.maps.MapTypeId.ROADMAP
 //     };
 //     map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-//
-//     window.onload = function()
-//     {
-//         initMap();
-//     }
-//
 // }
-
 

@@ -6,15 +6,20 @@ body{
     font-family: 'MyWebFont';
      src: url('blackChanchery.ttf') format('truetype')
 }
-#Canvas {
 
-   margin-left: -30%;
+#map_canvas
+{
+    width:200px;
+    height:200px;
 }
-
 .col-md-4 img{
 
     border: 5px solid black;
 
+}
+.contact
+{
+    display:inline-flex;
 }
 
 .navbar a,
@@ -22,15 +27,21 @@ body{
     text-align: center;
 }
 
-
+#contact-div
+{
+    display: flex;
+}
 .navbar-brand img
 {
    padding-top: 0;
 }
-
+#CON{
+    display: inline-flex;
+}
 #map{
-   float: right;
-    padding-bottom: -180px;
+
+    padding-left: 100px;
+    padding-top: -50px;
 }
 
 .main-heading
@@ -38,6 +49,10 @@ body{
     padding-top: 50px;
     padding-left: 20px;
 
+}
+#arrow
+{
+    padding-top: 50px;
 }
 #column-contact
 {
@@ -81,11 +96,6 @@ body{
     background:lightblue;
     margin-left: 75px;
 }
-#contact-para
-{
-   margin-left: -350px;
-}
-
 
 .sec-main
 {
@@ -157,7 +167,8 @@ p{
 #footer
 {
     background: #000;
-    height: 50px;
+    height: 100px;
+
 }
 .soc-media-ul
 {
@@ -186,7 +197,7 @@ p{
 {
     float: left;
     color: lightgray;
-    margin-left: -8%;
+    margin-left: -6%;
     font-family: cursive;
 }
 
