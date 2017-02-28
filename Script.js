@@ -11,7 +11,8 @@ $(function() {
     });
 });
 
-function makeCircle() {
+function makeCircle()
+{
     var canvas = document.getElementById('Canvas');
     var context = canvas.getContext('2d');
     var img = new Image();
@@ -21,6 +22,7 @@ function makeCircle() {
     img.src = "Images/CK_Face_pic.png";
     img.border= " 10px black"
 }
+
 // var geocoder;
 // var map;
 // function initMap()

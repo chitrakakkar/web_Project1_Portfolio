@@ -1,13 +1,21 @@
 body{
-    background-color: saddlebrown;
+    background-color: forestgreen;
 }
 
-
+@font-face {
+    font-family: 'MyWebFont';
+     src: url('blackChanchery.ttf') format('truetype')
+}
 #Canvas {
 
    margin-left: -30%;
 }
 
+.col-md-4 img{
+
+    border: 5px solid black;
+
+}
 
 .navbar a,
 .sec-about p {
@@ -47,7 +55,7 @@ body{
 {
     margin-left: 20px;
    margin-right: 20px;
-    background-color:lightsteelblue;
+    background-color:burlywood;
     border-radius: 20px;
 }
 #id{
@@ -83,7 +91,7 @@ body{
 {
     position: relative;
     height: 560px;
-    background: url(Images/Main_Pic.jpg) no-repeat center center;
+    background: url(Images/main_Banner.jpg) no-repeat center center;
     background-size: contain;
 }
 .sec-about p
@@ -91,7 +99,11 @@ body{
     margin-top: -40px;
     margin-right: -50%;
 }
+.sec-folio
+{
+    padding-right: 50px;
 
+}
 .navbar-header img
 {
 
@@ -112,23 +124,24 @@ p{
 
 }
 .title{
-    font-family: Helvetica;
+    font-family: 'MyWebFont', Fallback, sans-serif;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 50px;
 }
 .hr-sect
 {
     display: flex;
     flex-basis: 100%;
     align-items: center;
-    color: navy;
+    color: darkgreen;
     margin: 8px 0px;
 }
 .hr-sect::before,
 .hr-sect::after {
     content: "";
     flex-grow: 1;
-    background: royalblue;
+    background: darkgreen;
     height: 5px;
     font-size: 0px;
     line-height: 0px;
