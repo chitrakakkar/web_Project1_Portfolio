@@ -1,5 +1,5 @@
 body{
-    background-color: forestgreen;
+    background-color: darkgreen;
 }
 
 @font-face {
@@ -44,6 +44,14 @@ body{
     padding-top: -50px;
 }
 
+#map p
+{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
 .main-heading
 {
     padding-top: 50px;
@@ -70,7 +78,7 @@ body{
 {
     margin-left: 20px;
    margin-right: 20px;
-    background-color:burlywood;
+    background-color:lightgoldenrodyellow;
     border-radius: 20px;
 }
 #id{
@@ -107,7 +115,7 @@ body{
 .sec-about p
 {
     margin-top: -40px;
-    margin-right: -50%;
+    margin-left: -300px;
 }
 .sec-folio
 {

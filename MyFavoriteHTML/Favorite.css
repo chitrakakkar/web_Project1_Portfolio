@@ -1,0 +1,134 @@
+*{
+    font-height:5px;
+
+}
+
+p{
+    color:bisque;
+    font-size: 18px;
+
+}
+
+h1
+{
+    color:white;
+    font-size: 60px;
+    text-shadow: 2px 2px purple;
+    text-align: center;
+
+}
+#Movie-name
+{
+    font-style: italic;
+    font-weight: bold;
+
+
+}
+body
+{
+    background: linear-gradient(steelblue, purple,steelblue);
+
+
+}
+#Favorite-band
+{
+    font-weight: bold;
+
+}
+h3{
+    color: white;
+}
+
+.gif
+{
+    border-radius: 8px;
+    width: 150px;
+    height: 100px;
+    padding:0;
+    float: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+    font-style: italic;
+
+}
+.Favorite{
+    color: black;
+    padding: 0;
+    border-color:darkorchid ;
+    border-width:2px;
+    border-style: solid;
+    margin: 5px;
+    overflow:auto;
+
+}
+#table{
+    color: white;
+
+
+}
+table, th, td {
+    border: 1px solid white;
+    width: 1250px;
+    padding: 10px;
+    text-align: left;
+}
+th
+{
+    background-color: rebeccapurple;
+    color: white;
+}
+.food-list
+{
+    color: khaki;
+}
+#most-favorite-food
+{
+    color: aquamarine;
+
+}
+.Title
+{
+    color:white;
+    font-family: "Brush Script MT";
+
+
+}
+.food{
+    display: flex;
+
+}
+#Movie-name
+{
+    font-style: italic;
+    color: darksalmon;
+    font-weight: bold;
+
+}
+img
+{
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+.footer
+{
+
+    color: aqua;
+
+}
+#footer-header{
+    background : linear-gradient(lightblue, purple);
+    text-align: center ;
+
+}
+
+
+
+
+
+/* Change these to colors of your choice */
