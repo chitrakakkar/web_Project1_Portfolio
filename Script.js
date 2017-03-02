@@ -1,6 +1,7 @@
 /**
  * Created by chitrakakkar on 2/21/17.
  */
+// taken from code-pen
 $(function() {
     $('.js-nav a, .js-connect').click(function (e) {
         e.preventDefault();
@@ -9,7 +10,7 @@ $(function() {
         }, 750);
     });
 });
-
+// for making face canvas and other circular canvases
 function makeCircle()
 {
     var canvas = document.getElementById('Canvas');
@@ -21,7 +22,7 @@ function makeCircle()
     img.src = "Images/CK_Face_pic.png";
     img.border= " 10px black"
 }
-
+// to display google map with a map which can be clicked to open a google map in your browser
 var geocoder;
 var map;
 function initMap()
