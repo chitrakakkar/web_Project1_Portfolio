@@ -12,12 +12,12 @@ This website is divided into six sections:-
 
 ##Tools used
 * I have used Bootstrap and CSS to layout the design for the Single-page website. 
-* It's 90 % responsive for the reason that some sections needed to be display on the entire deskhtop page. 
+* It's 90 % responsive for the reason that some sections(about) needed to be display on the entire deskhtop page. 
 * I have used Javsscript and Jquery for some evnets that are happening on the webpage.
+* It has a google translate option which can traslate the page into a desired langauage.
+* I have used A contact-form inside a modal to let user type some message for me to contact.
 
 ## Bugs
-* I don't have any bugs for now but I know some sections on my webpage are not responsive which I know how to fix. It will be fixed real soon.
-
+* No bugs known..if you find any, please let me know :)
 ## Version-2
-* I want to inlcude some more functinalities and some animations to make it look more intriguing.
-
+* I want to inlcude functionality for my contact form so that it submits the request to the server.
