@@ -55,7 +55,8 @@ function initMap()
         // click event for marker
         google.maps.event.addListener(marker, 'click', function ()
         {
-            window.location.href = marker.url
+            //window.location.href = marker.url;
+            window.open(marker.url)
         });
     });
     var latlng = new google.maps.LatLng(lat, lng);
