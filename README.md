@@ -3,7 +3,7 @@ This is my Software development Portfolio for my Project1 for Web class.
 
 ##Portfolio for Software Development
 This website is divided into six sections:-
-* Home-A caoption with a banner image
+* Home-A caption with a banner image
 * An about section,
 * Skills section
 * Git-Hub projects section
