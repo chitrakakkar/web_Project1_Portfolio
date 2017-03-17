@@ -119,7 +119,7 @@ $( document ).ready(function()
         $(this).css("font-size", "17px");
         $(this).css("font-family", "cursive");
         $(this).css("color", "white");
-        $(this).delay(1000 * i).fadeIn();
+        $(this).delay(1500 * i).fadeIn();
     });
 });
 // changes background color constantly
@@ -146,5 +146,8 @@ $(function()
     {
         $(this).toggleClass('rounded_corner');
     });
-
+    $('p').hover(function()
+    {
+        $(this).toggleClass('text_color_change');
+    });
 });
