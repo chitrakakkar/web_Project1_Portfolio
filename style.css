@@ -14,7 +14,8 @@ body
     width:200px;
     height:200px;
 }
-.col-md-4 img{
+.col-md-4 img
+{
 
     border: 5px solid black;
 
@@ -37,7 +38,8 @@ body
 {
    padding-top: 0;
 }
-#CON{
+#CON
+{
     display: inline-flex;
 }
 #map{
@@ -202,6 +204,10 @@ p{
     border-radius: 100%;
     border: 2px solid;
 }
+.circle_hover
+{
+background-color: deeppink;
+}
 /*quotes*/
 .strong
 {
@@ -292,7 +298,8 @@ input[type=text], select, textarea
     resize: vertical;
 }
 
-input[type=submit] {
+input[type=submit]
+{
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
@@ -306,10 +313,19 @@ input[type=submit]:hover
     background-color: #45a049;
 }
 
-.contact_container{
+.contact_container
+{
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
 }
 
+.rounded_corner
+{
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 330px;
+    height: 300px;
+}
 

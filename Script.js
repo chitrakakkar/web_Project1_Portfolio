@@ -2,8 +2,11 @@
  * Created by chitrakakkar on 2/21/17.
  */
 // taken from code-pen
-$(function() {
-    $('.js-nav a, .js-connect').click(function (e) {
+// scrolls up-down when navbar items or connect word is clicked
+$(function()
+{
+    $('.js-nav a, .js-connect').click(function (e)
+    {
         e.preventDefault();
         $('body, html').animate({
             scrollTop: $($.attr(this, 'href')).offset().top
@@ -65,19 +68,19 @@ function initMap()
     map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
     }
 
-
+// displays a banner
 function myFunction()
 {
     var x = document.getElementById("POP-UP");
     x.className = "show";
-    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 30000);
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
 }
-
+// a google translater
 function googleTranslateElementInit()
     {
         new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
     }
-
+//message form
 function modal()
 {
     // Get the modal
@@ -105,3 +108,43 @@ var span = document.getElementsByClassName("close")[0];
         }
     }
 }
+// fade in the footer-quotes on body load
+$( document ).ready(function()
+{
+    var str = $('#footer-quotes').text();
+    var spans = '<span>' + str.split(/\s+/).join(' </span><span>') + '</span>';
+
+    $(spans).hide().appendTo("#quotes").each(function (i)
+    {
+        $(this).css("font-size", "17px");
+        $(this).css("font-family", "cursive");
+        $(this).css("color", "white");
+        $(this).delay(1000 * i).fadeIn();
+    });
+});
+// changes background color constantly
+$(function()
+{
+    var colors = ["aqua","Chartreuse", "yellow"];
+
+    setInterval(function()
+    {
+        var colors_length = Math.floor(Math.random() * colors.length);
+        var randomly_picked_color = colors[colors_length];
+        $("body").css("background",randomly_picked_color);
+    }, 1000);
+});
+// some hover over CSS animation
+$(function()
+{
+    $('.circle').hover(function()
+    {
+        $(this).toggleClass('circle_hover');
+    });
+
+    $('.center-block').hover(function()
+    {
+        $(this).toggleClass('rounded_corner');
+    });
+
+});
