@@ -19,5 +19,6 @@ This website is divided into six sections:-
 
 ## Bugs
 * No bugs known..if you find any, please let me know :)
+
 ## Version-2
 * I want to inlcude functionality for my contact form so that it submits the request to the server.
