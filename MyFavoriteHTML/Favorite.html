@@ -1,69 +1,101 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="Favorite.css">
-    <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
-    <link href='Wonderbar%20Demo.otf' rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
     <meta charset="UTF-8">
-    <title>My Favorite things</title>
+    <title>Chitra Kakkar</title>
+    <link rel="stylesheet" href="Favorite.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 </head>
 <body>
-<div class="container">
-<div class="Favorite">
-    <img class="gif" src="Images/favorite.jpg" height="424" width="294" style="float: right">
-    <h1><i><b> <span class="Title"> Some of my favorite things </span></b></i></h1>
 
-    <h3>Favorite Movie</h3>
+<!-- LANDING PAGE -->
+<section id="home">
+    <!-- OVERLAY -->
+    <div class="overlay">
+        <!-- PRIMARY NAVIGATION -->
+        <nav role="navigation">
+        </nav>
+        <!-- END OF PRIMARY NAVIGATION -->
 
-<p>
-    <span id ="Movie-name"><a href ="https://en.wikipedia.org/wiki/Eddie_%22The_Eagle%22_Edwards" >Eddie the Eagle</a></span> is a 2016 biographical sports comedy-drama film directed by Dexter Fletcher.The film stars Taron Egerton as Eddie Edwards, a British skier who in 1988 became the first competitor to represent Great Britain in Olympic ski jumping.Hugh Jackman, Christopher Walken, Iris Berben and Jim Broadbent co-star. The film had its world premiere at the 2016 Sundance Film Festival on January 26, 2016.
-    Edwards was born in Cheltenham, Gloucestershire. His family call him by his given name, "Michael". "Eddie" is a nickname derived by schoolfriends from his surname.[2] A good downhill skier, he narrowly missed the Great Britain team for that event for the 1984 Games. To improve his chances to qualify for Calgary in 1988, he moved to Lake Placid, New York in the U.S. to train and enter races of a higher standard, but he quickly found himself short on funds.
-</p>
- </div>
- <div class="Favorite">
-<h3>Favorite Band</h3>
-<p>
-    <span id ="Favorite-band"><a href="https://en.wikipedia.org/wiki/The_Beach_Boys">The Beach Boys</a></span> are an American rock band formed in Hawthorne, California in 1961. The group's original lineup consisted of brothers Brian, Dennis, and Carl Wilson, their cousin Mike Love, and their friend Al Jardine.They emerged at the vanguard of the "California Sound", initially performing original surf songs
-    that gained international popularity for their distinct vocal harmonies and lyrics reflecting a southern California youth culture of surfing, cars, and romance.Rooted in jazz-based vocal groups, 1950s rock and roll, and doo-wop, Brian led the band in devising novel approaches to music production, arranging his compositions for studio orchestras, and experimenting with several genres ranging from pop ballads to psychedelic and baroque styles.
-</p>
- </div>
-    <div class="Favorite">
-     <div class="=row">
-         <h3>Favorite Foods:</h3>
-         <div class="col-sm-4"><a href = "http://www.handletheheat.com/chicken-ravioli-creamy-tomato-sauce/">Chicken ravioli</a><img src="Images/Chicken%20Ravioli.jpg"/> </div>
-         <div class="col-sm-4"><a href = "http://indianhealthyrecipes.com/chilli-chicken-dry-recipe-indo-chinese-style/">Chili chicken</a><img src="Images/chicken%20chilli.jpg"/></div>
-         <div class="col-sm-4"><a href = "http://www.vegrecipesofindia.com/veg-noodles-recipe-easy-veg-noodles/">Vegetable noodles</a><img src="Images/noodles.jpg"/></div>
-</div>
-     </div>
- <div class="Favorite">
-     <table id="table">
-    <h3>Favorite Books</h3>
-    <th>Book's name</th>
-    <th>Author</th>
-    <th>Links</th>
-    <tr>
-        <td>Gone with the wind</td>
-        <td>Margaret Mitchell</td>
-        <td> <a href = "https://www.goodreads.com/book/show/18405.Gone_with_the_Wind">click here</a></td>
-
-
-    </tr>
-    <tr>
-        <td>The fault in our stars</td>
-        <td>John Green </td>
-        <td><a href="https://www.goodreads.com/book/show/11870085-the-fault-in-our-stars">Click here</a></td>
-
-    </tr>
-
-</table>
- </div>
-<div class="footer">
-    <table>
-        <th id="footer-header">Created by : Chitra Kakkar</th>
-    </table>
-</div>
+        <!-- CONTAINER -->
+        <div class="container">
+            <h1><span class="logo">My Favorite</span><small>I love cooking. After I retire from being a software developer, I am planning to own a small restaurant.</small></h1>
+            <ul class="social-links vertical-list">
+                <li><a href="http://allrecipes.com/recipes/233/world-cuisine/asian/indian/" class="noir recipe" target="_blank">Recipes</a></li>
+                <li><a href="http://www.imdb.com/title/tt1562872/" class="noir Movie" target="_blank">Movie</a></li>
+                <li><a href="https://www.youtube.com/" class="noir music" target="_blank">Music</a></li>
+            </ul>
+        </div>
+        <!-- END OF CONTAINER -->
     </div>
+    <!-- END OF OVERLAY -->
+</section>
+<!-- END OF LANDING PAGE -->
+<section id="places" class="sec-place">
+        <div class="container">
+                <div class="hr-sect">
+                <h3 class="title">Places I want to visit</h3>
+                    </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+
+
+                                <h2 class="h3">Paris</h2>
+                                <img src="./Images/Paris.jpg">
+
+                                <p></p>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <h2 class="h3">Australia</h2>
+
+                                <img src="./Images/Austrailia.jpg">
+                            </div>
+
+                            <div class="col-sm-4">
+
+                                <h2 class="h3">London</h2>
+                                <img src="./Images/London.jpg">
+
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+<section id="hobbies" class="sec-places">
+    <div class="container">
+        <div class="hr-sect">
+            <h3 class="title">More about me</h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="">
+
+                    <h2 class="h3">Music</h2>
+
+                    <p>I love music. I listen to all different kinds of music, specially Indian music. I love to sing and aspire to take some music classes.I love listening to Gazals, modern bollywood music and some hollywood songs.</p>
+
+                </div>
+
+                <div class="col-sm-4">
+                    <img src="">
+
+                    <h2 class="h3">Cooking</h2>
+                    <p>I love cooking. In my free time, I watch food channel and try different cuisines. I also love watching movies. My favorite movies are The note book, eddie the eagle and many more.</p>
+                </div>
+
+                <div class="col-sm-4">
+                    <img src="">
+
+                    <h2 class="h3">Hobbies</h2>
+
+                    <p>Cooking is my stress buster.I know to cook all kinds of Indian cuisines.I know to cook some chinese food too. I am planning to learn to cook Italian food.</p>
+
+
+
+                </div>
+            </div>
+        </div>
+</section>
+
 </body>
-</html>
