@@ -82,7 +82,7 @@ body
 {
     margin-left: 20px;
    margin-right: 20px;
-    background-color:lightgoldenrodyellow;
+    background: url("Images/bcImage.jpg");
     border-radius: 20px;
 }
 #id{
@@ -111,13 +111,13 @@ body
     margin-left: 75px;
 }
 
-.sec-main
-{
-    position: relative;
-    height: 560px;
-    background: url(Images/main_Banner.jpg) no-repeat center center;
-    background-size: contain;
-}
+/*.sec-main*/
+/*{*/
+    /*position: relative;*/
+    /*height: 560px;*/
+    /*background: url(Images/main_Banner.jpg) no-repeat center center;*/
+    /*background-size: contain;*/
+/*}*/
 .sec-about p
 {
     margin-top: -40px;
@@ -161,7 +161,7 @@ p{
     display: flex;
     flex-basis: 100%;
     align-items: center;
-    color: darkgreen;
+    color: yellow;
     margin: 8px 0px;
 }
 .hr-sect::before,
@@ -215,7 +215,7 @@ p{
 {
 background-color: deeppink;
 }
-/*quotes*/
+/*footer-quotes*/
 .strong
 {
     float: left;
@@ -346,4 +346,112 @@ input[type=submit]:hover
     /*color: black;*/
     /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 
+}
+h1 small {
+    display: block;
+    color: yellow;
+}
+h1 .logo {
+    font-size: 200%;
+    font-family: 'Brush Script MT', "American Typewriter";
+    width: 200px;
+    text-align: center;
+    /*margin-right: -1600px;*/
+    color: white;
+}
+
+/* ELEMENTS */
+.noir {
+    display: block;
+    background-color: black;
+    padding: 18px;
+    border: 3px solid white;
+}
+
+.vertical-list li {
+    float: left;
+}
+
+.blue-border {
+    border: 2px solid #114190;
+}
+
+.magenta-border {
+    border: 2px solid #e11a61;
+}
+
+.purple-border {
+    border: 2px solid #9d1098;
+}
+
+.red-border {
+    border: 2px solid #9d102b;
+}
+
+/* END OF ELEMENTS */
+
+.overflow {
+    overflow: hidden;
+}
+
+.overlay {
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+#home {
+    background: url("Images/Code_Image.jpg") no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+#home nav {
+    margin: 0 auto;
+    width: 700px;
+    padding-top: 80px;
+}
+
+
+
+.social-links {
+    margin-top: 100px;
+    overflow: hidden;
+    padding: 0;
+    display: table;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.social-links li {
+    display: inline-table;
+    margin-right: 10px;
+}
+
+.html {
+    border-color: #55acee;
+}
+
+.Python {
+    border-color: #55acee;
+}
+
+.Java {
+    border-color: #55acee;
+}
+
+.HTML:hover {
+    background-color: #55acee;
+    transition: background-color .4s;
+}
+
+.Python:hover {
+    background-color: #0077b5;
+    transition: background-color .4s;
+}
+
+.Java:hover {
+    background-color: #4a2b0f;
+    transition: background-color .4s;
 }

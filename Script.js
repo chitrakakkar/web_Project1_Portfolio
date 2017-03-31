@@ -123,6 +123,20 @@ $( document ).ready(function()
         $(this).delay(1500 * i).fadeIn();
     });
 });
+// fade in the banner-quotes on body load
+$( document ).ready(function()
+{
+    var str = $('#small').text();
+    var spans = '<span>' + str.split(/\s+/).join(' </span><span>') + '</span>';
+
+    $(spans).hide().appendTo("#caption").each(function (i)
+    {
+        $(this).css("font-size", "35px");
+        $(this).css("font-family", "cursive");
+        $(this).css("color", "yellow");
+        $(this).delay(500 * i).fadeIn();
+    });
+});
 // changes background color constantly
 $(function()
 {
