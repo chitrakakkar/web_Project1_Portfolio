@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!--Font Awesome's Brand Icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="Style.less">
+    <script src="Script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</head>
+<!-- black Navigation Page on the top-->
+<body>
+<div class="wrapper">
+    <header role="header">
+        <div class="row">
+            <div class="col-sm-4">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+            <div class="container">
+                <div class="navbar-header">
+                    <a onclick="myFunction()" class="navbar-brand">
+                        <img id="Icon_image" src="Images/CK.jpg"/></a>
+                    <div id="POP-UP">CK Stands for CHitra Kakkar. This is my portfolio designed in HTML, CSS and Javascript.</div>
+                </div>
+                <div id="nav-items" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right js-nav">
+                        <li><a href="#home">Home</a></li>
+
+                        <li><a href="#about">About</a></li>
+
+                        <li><a href="#services">Skills</a></li>
+
+                        <li><a href="#folio">Projects</a></li>
+
+                        <li><a href="#testimonials">Testimonials</a></li>
+
+                        <li><a href="#contact">Contact</a></li>
+
+                    </ul>
+                </div>
+                        </div>
+        </nav>
+            </div>
+        </div>
+    </header>
+    <!--End of Navigation Page-->
+    <!-- LANDING PAGE -->
+    <section id="home">
+        <!-- OVERLAY -->
+        <div class="overlay">
+            <!-- PRIMARY NAVIGATION -->
+            <nav role="navigation">
+            </nav>
+            <!-- END OF PRIMARY NAVIGATION -->
+
+            <!-- CONTAINER -->
+            <div id="caption" class="container">
+                <h1><span class="logo">Software Development- A New Beginning</span><small id="small" hidden>I do programming not because I have to earn money, but because it is fun to program.It's my dream to become a good programmer and I am working towards it.<br id="name">-Chitra Kakkar !!!</small></h1>
+
+            </div>
+            <div>
+                <ul class="social-links vertical-list">
+                    <li><a href="https://www.w3schools.com/html/" class="noir html" target="_blank">HTML</a></li>
+                    <li><a href="https://docs.python.org/3/tutorial/classes.html" class="noir Python" target="_blank">Python</a></li>
+                    <li><a href="https://go.java/index.html" class="noir Java" target="_blank">JAVA</a></li>
+                </ul>
+
+
+            </div>
+            <!-- END OF CONTAINER -->
+        </div>
+        <!-- END OF OVERLAY -->
+    </section>
+    <!-- About section -->
+    <section id="about" class="sec-about">
+        <div class="container">
+            <div class="hr-sect">
+                <h1 class="title">About me</h1>
+            </div>
+            <div class="row">
+                <div class="menu">
+                    <ul>
+                        <li><canvas id="Canvas" height="400" width="300">
+
+                        </canvas></li>
+                        <li class="circle"><a onclick =window.open('CK_Resume.pdf')> My Resume</a>
+                            <!--<iframe id="myFrame" onload="this.style.visibility='hidden' "></iframe>-->
+
+                            </li>
+                        <li class="circle"><a onclick=window.open("MyBlogHtml/HTMLPage2.htm")>My Blog</a></li>
+                        <li class="circle"><a id="Personal_Info" onclick=window.open("MyFavoriteHTML/Favorite.html")>My  Personal Life</a></li>
+                    </ul>
+                    <script>
+                        makeCircle();
+
+                    </script>
+                </div>
+                <div class="row">
+                <div id="Introduction_fadeIn" class="col-sm-9 col-sm-offset-3">
+                    <p id="intro">Hi, my name is Chitra Kakkar and I am a Student At <a onclick=window.open("http://www.minneapolis.edu/")> Minneapolis Community And Technical College </a> doing an AAS degree in software development. I am currently doing an internship at <a href="http://www.hennepin.us/"> Hennepin county, Minneapolis.</a>
+                       I like to write codes and build applications. I have Learnt C#, Java, Python, HTMl, CSS, Bootstrap, Javascript and Jquery.
+                        My other skills include Project Management, Database Management System and Windows/Mac OS.
+                        If you want to hire me or just to talk, <a class="js-connect" href="#footer">connect</a> with me.</p>
+                </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF About Section -->
+    <!-- Skills section-->
+    <section id="services" class="sec-services">
+        <div class="container">
+            <div class="hr-sect">
+                <h1 class="title">Skills</h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <i class="fa fa-4x fa-paint-brush"></i>
+
+                    <h2 class="h3">Front-end Coding</h2>
+
+                    <p>I have done some projects which uses HTMl, CSS, Bootstrap, GUI and Other UI components. I have done some Cshtml.</p>
+                </div>
+
+                <div class="col-sm-4">
+                    <i class="fa fa-4x fa-code"></i>
+
+                    <h2 class="h3">Back-end Coding</h2>
+
+                    <p>Most of my  projects are written in valid and clean C#, Java and Python. I have started using Javascript and Jquery right now. I am proficient in Mysql.</p>
+                </div>
+
+                <div class="col-sm-4">
+                    <i class="fa fa-4x fa-tasks"></i>
+
+                    <h2 class="h3">Project Management</h2>
+
+                    <p>I have some case studies for my project management course. I am well aware of waterfall and Agile methodologies. I know Windows and MAC OS.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF Skills section -->
+    <!-- Start of Projects -->
+    <section id="folio" class="sec-folio">
+        <div class="container">
+            <div class="hr-sect">
+                <h1 class="title">Projects</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://github.com/chitrakakkar/Capstone_FinalProject2"><img class="center-block" src="./Images/Project_Images/face_recog_Pic.jpg" alt="Capstone-final-Python" /></a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="https://github.com/chitrakakkar/Capstone_PostcardMashup"><img class="center-block" src="./Images/Project_Images/Postcard_App_Pic.jpg" alt="Capstone-PostCard"/></a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="https://github.com/chitrakakkar/Data.gov"><img class="center-block" src="./Images/Project_Images/WxPython-logo.jpg" alt="Python-GUI"/></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://github.com/chitrakakkar/Goodreads_API"><img class="center-block" src="./Images/Project_Images/goodreads-api_PIC.jpg" alt="Python-GUI"/></a>
+
+                </div>
+
+                <div class="col-md-4">
+                    <a href="https://github.com/chitrakakkar/Goodreads_API_threaded"><img class="center-block" src="./Images/Project_Images/goodreads-api_Threaded_PIC.jpg" alt="Python-GUI"/></a>
+
+                </div>
+
+                <div class="col-md-4">
+                    <a href="https://github.com/chitrakakkar/weather"><img class="center-block" src="./Images/Project_Images/python_click_pic.jpg" alt="Python-GUI"/></a>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://github.com/chitrakakkar/Java-Final-Project"><img class="center-block" src="./Images/Project_Images/Coffee_Shop_PIc.jpg" alt="Python-GUI"/></a>
+
+                </div>
+
+                <div class="col-md-4">
+                    <a href="https://github.com/chitrakakkar/MemoryCalculator"><img class="center-block" src="./Images/Project_Images/calculator-pic.jpg" alt="Python-GUI"/></a>
+
+                </div>
+
+                <div class="col-md-4">
+                    <a href="https://github.com/chitrakakkar/CrazyEightworkingon8/tree/master/src/com/Chitra"><img class="center-block" src="./Images/Project_Images/crazyeights_Pics.jpg" alt="Python-GUI"/></a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF Projects -->
+    <!-- Start of testimonial -->
+    <section id="testimonials" class="sec-testimonials">
+        <div class="container">
+            <div class="hr-sect">
+                <h1 class="title">Testimonials</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <p class="text-center">"Chitra was a team player while working with Encore.Her dedication contributed to our success"</p>
+
+                    <p class="text-right">&mdash; Rahul Das/Encore India</p>
+                </div>
+
+                <div class="col-sm-4">
+                    <p class="text-center">"Chitra's extra effort, dedication, insights and opinions were all extremely valuable to the success of this organization"
+                    <p class="text-right">&mdash; KanwarDeep Singh/Convergys-India</p>
+                </div>
+
+                <div class="col-sm-4">
+                    <p class="text-center">"Chitra's personal commitment to quality, desire and willingness fuel our mutual efforts and lead us to success"
+                    <p class="text-right">&mdash; Rochell Spiel/MCTC IT Department</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF Testimonial -->
+    <!-- start OF contacts -->
+    <section id="contact" class="sec-contact">
+        <div class="container">
+            <div class="hr-sect">
+                <h1 class="title">Contacts</h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <p  id="contact-para">
+                        I'm currently available for freelance projects or full-time work.
+                        If you're interested in working with me, please get in touch using one of the contact information here
+                        Or feel free to just say hi. I like that too.</p> <a id="message_link" onclick="modal()" ><h5>Message Me</h5></a>
+                        <div id="myModal" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h3>Contact Form</h3>
+
+                                <div class="contact_container">
+                                    <form action="/">
+                                        <label for="fname">First Name</label>
+                                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                                        <label for="lname">Last Name</label>
+                                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                                        <label for="country">Country</label>
+                                        <select id="country" name="country">
+                                            <option value="India">India</option>
+                                            <option value="Europe">Europe</option>
+                                            <option value="USA">USA</option>
+                                        </select>
+
+                                        <label for="subject">Subject</label>
+                                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                                        <input type="submit" value="Submit">
+                                    </form>
+                                </div>
+                    </div>
+                        </div>
+
+                    </div>
+                <div class="col-sm-4">
+                    <p id="contact-info">
+                        <b>Full name:</b> Chitra Kakkar
+                        <br>
+                        <b>Address:</b>Minneapolis, MN-55403
+                        <br>
+                        Work Email:chitra.kakkar@hennepin.us
+                        <br>
+                        <b>Personal Email address: </b><a href="mailto:chitra.kakkar@yahoo.com?subject=Your%20online%20portfolio">Mail me</a>
+
+                </div>
+                <div id="arrow">
+                    <img src="Images/arrow.png"/>
+                </div>
+
+                <div id="map" class="col-sm-4">
+                    <p >Click the marker</p>
+                        <div id="map_canvas" style="width:250px; height:150px"></div>
+                            <p id="city_state_zip" hidden>55403</p>
+                            <p id="street_address" hidden>110 E 18th street</p>
+
+                        </div>
+                </div>
+            </div>
+
+        </section>
+
+    <!-- END OF contact-->
+
+
+    <!-- start OF footer -->
+
+      <footer id="footer">
+        <div class="col-sm-4">
+        <div id="quotes" class="container">
+            <strong id="footer-quotes" class="strong" hidden>Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
+                --Martin Fowler</strong>
+            <ul class="soc-media-ul">
+
+                <li>
+                    <a href="https://twitter.com/chitrakakkar19" class="fa fa-twitter" target="_blank"></a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/chitra-kakkar-a6ab473a?trk=hp-identity-name" class="fa fa-linkedin" target="_blank"></a>
+                </li>
+
+                <li>
+                    <a href="https://www.facebook.com/chitra.kakkar" class="fa fa-facebook" target="_blank"></a>
+                </li>
+
+                <li>
+                    <a href="mailto:chitra.kakkar@yahoo.com?subject=Your%20online%20portfolio" class="fa fa-envelope" target="_blank"></a>
+                </li>
+                </ul>
+            </div>
+            <div id="google_translate_element"></div>
+       </div>
+
+      </footer>
+
+    <!-- Google API source-->
+</div>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3gxvsDMg0UwMj8XR8ujRqDWdkQItQKJM&callback=initMap">
+</script>
+
+</body>
+
+</html>

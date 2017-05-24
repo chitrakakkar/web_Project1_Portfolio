@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Fauna One', serif;
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: white;
+}
+p{
+    font-size: large;
+}
+a:hover, a:focus {
+    color: white;
+    text-decoration: none;
+}
+.title
+{
+    font-family: 'MyWebFont', Fallback, sans-serif;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-weight: bold;
+    font-size: 30px;
+}
+.hr-sect
+{
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: #9d102b;
+    margin: 8px 0px;
+}
+.hr-sect::before,
+.hr-sect::after {
+    content: "";
+    flex-grow: 1;
+    background: #9d102b;
+    height: 5px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 8px;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 4%;
+    font-size: 412.5%;
+}
+
+
+h1 small {
+    display: block;
+    color: yellow;
+}
+
+h2 {
+    font-size: 245%;
+    margin-top: 140px;
+}
+
+h2:after {
+    display: block;
+    margin: 42px 0;
+    content: "";
+}
+
+
+
+h1 .logo {
+    font-size: 500%;
+    font-family: 'Brush Script MT', cursive;
+    width: 200px;
+    margin-left: -20px;
+    color: white;
+}
+
+/* ELEMENTS */
+.noir {
+    display: block;
+    background-color: black;
+    padding: 18px;
+    border: 3px solid white;
+}
+
+.vertical-list li {
+    float: left;
+}
+
+.blue-border {
+    border: 2px solid #114190;
+}
+
+.magenta-border {
+    border: 2px solid #e11a61;
+}
+
+.purple-border {
+    border: 2px solid #9d1098;
+}
+
+.red-border {
+    border: 2px solid #9d102b;
+}
+
+/* END OF ELEMENTS */
+
+.overflow {
+    overflow: hidden;
+}
+
+.overlay {
+    background-color: rgba(212, 196, 217, 0.56);
+    height: 100%;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+#home {
+    background: url("Images/cooking-pic.jpg") no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+#home nav {
+    margin: 0 auto;
+    width: 700px;
+    padding-top: 80px;
+}
+
+#home nav ul {
+    overflow: hidden;
+}
+
+#home nav ul li {
+    width: 25%;
+}
+
+#home nav a {
+    padding: 16px;
+    padding-right: 30px;
+    display: table-cell;
+}
+
+#home nav.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 999;
+    padding: 0;
+    transition: background-color .8s;
+
+}
+
+#home nav.fixed ul {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+.social-links {
+    margin-top: 100px;
+    overflow: hidden;
+    padding: 0;
+    display: table;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.social-links li {
+    display: inline-table;
+    margin-right: 10px;
+}
+
+.recipe {
+    border-color: #55acee;
+}
+
+.movie {
+    border-color: #0077b5;
+}
+
+.music {
+    border-color: #4a2b0f;
+}
+
+.recipe:hover {
+    background-color: #55acee;
+    transition: background-color .4s;
+}
+
+.movie:hover {
+    background-color: #0077b5;
+    transition: background-color .4s;
+}
+
+.music:hover {
+    background-color: #4a2b0f;
+    transition: background-color .4s;
+}
+
+
