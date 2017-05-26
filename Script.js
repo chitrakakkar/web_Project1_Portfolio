@@ -155,6 +155,8 @@ $(function()
     $('.circle').hover(function()
     {
         $(this).toggleClass('circle_hover');
+
+
     });
 
     $('.center-block').hover(function()

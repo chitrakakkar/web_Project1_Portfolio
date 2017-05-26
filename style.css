@@ -3,7 +3,9 @@ body
 {
     background-color: brown;
 }
-
+a:link {
+    color: red;
+}
 @font-face {
     font-family: 'MyWebFont';
      src: url('blackChanchery.ttf') format('truetype')
